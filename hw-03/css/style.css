@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.header {
+  padding-top: 20px;
+  margin-bottom: 105px;
+}
+
+.menu-list {
+  text-align: center;
+}
+
+.list-item-header {
+  list-style: none;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.item-link-header {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.list-item-main {
+  list-style: none;
+  display: inline-block;
+}
+
+.article-item {
+  list-style: none;
+  width: 420px;
+}
