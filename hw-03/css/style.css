@@ -7,6 +7,8 @@
 .wrapper {
   margin: 0 auto;
   width: 900px;
+  font-size: 14px;
+
 }
 
 .header {
@@ -31,6 +33,7 @@
 .item-link-header {
   text-decoration: none;
   color: black;
+  
 }
 
 .p-first, .item-link-header {
@@ -64,6 +67,7 @@ img {
 }
 
 h2 {
+  font-size: 30px;
   margin-bottom: 30px;  
 }
 
@@ -71,3 +75,15 @@ h2 {
   margin-bottom: 55px;
 }
 
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px inset grey;
+  margin-bottom: 70px;
+
+}
