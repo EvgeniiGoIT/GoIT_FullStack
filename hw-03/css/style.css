@@ -25,16 +25,17 @@
 }
 
 .not_marg {
-    margin-right: 0;
-  }
+  margin-right: 0;
+}
 
 .item-link-header {
   text-decoration: none;
   color: black;
-  text-transform: uppercase;
 }
 
-
+.p-first, .item-link-header {
+  text-transform: uppercase;
+}
 
 .list-item-main {
   list-style: none;
@@ -49,3 +50,24 @@
 .margin_rights {
   margin-right: 56px;
 }
+
+.margin-bottom {
+  margin-bottom: 135px;
+}
+
+img {
+  margin-bottom: 35px;
+}
+
+.p-first {
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 30px;  
+}
+
+.margin-bottom-button {
+  margin-bottom: 55px;
+}
+
