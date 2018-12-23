@@ -14,7 +14,6 @@
 .header {
   padding-top: 80px;
   margin-bottom: 100px;
-
 }
 
 .menu-list {
@@ -81,6 +80,9 @@ h2 {
   margin-bottom: 70px;
 }
 
-.item-link-header, p, h2, .button {
+.item-link-header,
+p,
+h2,
+.button {
   color: #626262;
 }
