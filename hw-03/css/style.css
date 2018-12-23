@@ -5,74 +5,68 @@
 }
 
 .wrapper {
-  margin: 0 auto;
   width: 900px;
+  margin: 0 auto;
+  font-family: serif;
   font-size: 14px;
-
 }
 
 .header {
-  padding-top: 20px;
-  margin-bottom: 105px;
+  padding-top: 80px;
+  margin-bottom: 100px;
+
 }
 
 .menu-list {
+  list-style: none;
   text-align: center;
 }
 
 .list-item-header {
-  list-style: none;
   display: inline-block;
-  margin-right: 100px;
-}
-
-.not_marg {
-  margin-right: 0;
+  margin-right: 125px;
 }
 
 .item-link-header {
   text-decoration: none;
-  color: black;
-  
-}
-
-.p-first, .item-link-header {
   text-transform: uppercase;
 }
 
+.main-list {
+  list-style: none;
+}
+
 .list-item-main {
-  list-style: none;
-}
-
-.article-item {
-  list-style: none;
-  display: inline-block;
-  width: 420px;
-}
-
-.margin_rights {
-  margin-right: 56px;
-}
-
-.margin-bottom {
   margin-bottom: 135px;
 }
 
+.article-item {
+  display: inline-block;
+  width: 420px;
+  margin-right: 54px;
+}
+
+.margin-r {
+  margin-right: 0px;
+}
+
+.margin-b {
+  margin-bottom: 60px;
+}
+
 img {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .p-first {
   margin-bottom: 25px;
+  text-transform: uppercase;
+  color: #b4ad9e;
 }
 
 h2 {
+  margin-bottom: 40px;
   font-size: 30px;
-  margin-bottom: 30px;  
-}
-
-.margin-bottom-button {
-  margin-bottom: 55px;
 }
 
 .button {
@@ -85,5 +79,8 @@ h2 {
   background-color: transparent;
   border: 1px inset grey;
   margin-bottom: 70px;
+}
 
+.item-link-header, p, h2, .button {
+  color: #626262;
 }
