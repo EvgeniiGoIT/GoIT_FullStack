@@ -9,6 +9,7 @@
   margin: 0 auto;
   font-family: "Playfair Display", serif;
   font-size: 14px;
+  color: #626262;
 }
 
 .header {
@@ -80,11 +81,4 @@ h2 {
   background-color: transparent;
   border: 1px inset grey;
   margin-bottom: 70px;
-}
-
-.item-link-header,
-p,
-h2,
-.button {
-  color: #626262;
 }
