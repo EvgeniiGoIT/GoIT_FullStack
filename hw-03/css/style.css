@@ -7,9 +7,7 @@
 .wrapper {
   width: 900px;
   margin: 0 auto;
-  font-family: "Playfair Display", serif;
   font-size: 14px;
-  color: #626262;
 }
 
 .header {
@@ -27,36 +25,50 @@
   margin-right: 125px;
 }
 
+.list-item-header:last-child {
+  margin-right: 0;
+}
+
 .item-link-header {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Ubuntu", sans-serif;
+  color: #626262;
+  line-height: 24px;
+}
+
+.item-link-header:hover {
+  color: red;
 }
 
 .main-list {
   list-style: none;
-}
-
-.list-item-main {
-  margin-bottom: 135px;
-}
-
-.article-item {
-  display: inline-block;
-  width: 420px;
-  margin-right: 54px;
-}
-
-.margin-r {
-  margin-right: 0px;
-}
-
-.margin-b {
   margin-bottom: 60px;
 }
 
-img {
+.list-item-main {
+  display: inline-block;
+  width: 420px;
+  margin-bottom: 135px;
+  margin-right: 56px;
+}
+
+/* nth-child(2n) */
+.list-item-main:nth-child(even) {
+  margin-right: 0;
+}
+
+.article-item {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+
+.article-img {
   margin-bottom: 30px;
+}
+
+p {
+  line-height: 24px;
 }
 
 .p-first {
@@ -66,7 +78,7 @@ img {
   font-family: "Ubuntu", sans-serif;
 }
 
-h2 {
+.article-h {
   margin-bottom: 40px;
   font-size: 30px;
 }
@@ -74,11 +86,15 @@ h2 {
 .button {
   display: block;
   margin: 0 auto;
-  padding: 20px;
+  width: 165px;
+  height: 60px;
+  line-height: 24px;
   font-size: 20px;
   outline: none;
   cursor: pointer;
   background-color: transparent;
   border: 1px inset grey;
   margin-bottom: 70px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
 }
