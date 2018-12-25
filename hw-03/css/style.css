@@ -35,8 +35,6 @@
 .item-link-header {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Ubuntu", sans-serif;
-  color: #626262;
   line-height: 24px;
 }
 
@@ -81,7 +79,7 @@
 }
 
 .article-item__second-p {
-  line-height: 25px;
+  line-height: 24px;
 }
 
 .button {
