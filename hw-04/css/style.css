@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 65px;
+}
+
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo_link {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #555252;
+  float: left;
+  
+}
+
+.logo_link::first-letter {
+  color: rgb(26, 188, 156);
+  font-weight: 900;
+}
+
+.header_nav {
+    float: right;
+}
+
+.nav_list {
+  list-style: none;
+  width: 465px;
+  
+}
+.list_link {
+    float: left;
+}
+.link_item {
+  text-decoration: none;
+  color: black;
+  
+}
