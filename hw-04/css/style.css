@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
 *,
 *::before,
 *::after {
@@ -16,6 +16,7 @@
 
 .header {
   padding-top: 65px;
+  margin-bottom: 100px;
 }
 
 .clearfix::after {
@@ -25,43 +26,109 @@
 }
 
 .logo_link {
+  text-decoration: none;
+  float: left;
+}
+.logo {
+  text-transform: uppercase;
+  color: rgb(81, 81, 81);
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #555252;
-  display: block;
-  float: left;
 }
-.logo_link::first-letter {
+.logo::first-letter {
   color: rgb(26, 188, 156);
   font-weight: 900;
 }
 .header_nav {
   float: right;
-  margin-top: 6px;
+  margin-top: 25px;
 }
 .nav_list {
   list-style: none;
   width: 465px;
-  }
+}
 .list_link {
   float: left;
 }
-.list_link:nth-child(-n+5) {
-    margin-right: 28px;
+.list_link:nth-child(-n + 5) {
+  margin-right: 28px;
 }
 .link_item {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 14px;  
+  font-size: 14px;
 }
-.link_item:hover{
+.link_item:hover {
   color: rgb(26, 188, 156);
 }
 
-  
+.name_section {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  color: rgb(81, 81, 81);
+  text-transform: uppercase;
+  margin-bottom: 135px;
+}
+
+.name_section::after {
+  content: "";
+  width: 170px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-bottom: 5px solid rgb(26, 188, 156);
+}
+
+.list_item_product {
+  list-style: none;
+  margin-bottom: 105px;
+}
+.list_contein_product {
+  width: 255px;
+  float: left;
+}
+
+.list_contein_product:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.list_contein_product:nth-child(-n + 4) {
+  margin-bottom: 30px;
+}
+
+.list_contein_product .article_img {
+  background-color: rgb(233, 240, 253);
+}
+
+/* .img_rotate {
+    transform: rotate(90deg);
+} */
+.list_contein_product .article_name {
+  float: left;
+  font-size: 18px;
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+
+.list_item_news {
+  list-style: none;
+}
+.list_contein_news {
+  width: 350px;
+  float: left;
+}
+.list_contein_news:nth-child(-n + 2) {
+  margin-right: 30px;
+}
+
+.list_contein_news .article_img {
+  margin-bottom: 15px;
+}
