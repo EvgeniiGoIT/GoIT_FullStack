@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,900");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 *,
 *::before,
 *::after {
@@ -17,7 +18,7 @@
   padding-top: 65px;
 }
 
-.clearfix::before {
+.clearfix::after {
   content: "";
   clear: both;
   display: table;
@@ -30,29 +31,37 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #555252;
+  display: block;
   float: left;
-  
 }
-
 .logo_link::first-letter {
   color: rgb(26, 188, 156);
   font-weight: 900;
 }
-
 .header_nav {
-    float: right;
+  float: right;
+  margin-top: 6px;
 }
-
 .nav_list {
   list-style: none;
   width: 465px;
-  
-}
+  }
 .list_link {
-    float: left;
+  float: left;
+}
+.list_link:nth-child(-n+5) {
+    margin-right: 28px;
 }
 .link_item {
   text-decoration: none;
   color: black;
-  
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;  
 }
+.link_item:hover{
+  color: rgb(26, 188, 156);
+}
+
+  
