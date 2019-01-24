@@ -110,7 +110,7 @@
 }
 .product_name {
   width: 255px;
-  background-color: black;
+  background: #323232;
   color: white;
   line-height: 40px;
   font-family: "Roboto", sans-serif;
@@ -130,7 +130,6 @@
   text-align: center;
   width: 55px;
   background-color: rgba(255, 255, 255, 0.44);
-  background-color: rgba(146, 29, 29, 0.44);
 }
 
 .list_item_news {
