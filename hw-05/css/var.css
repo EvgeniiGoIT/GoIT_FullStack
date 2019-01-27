@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+:root {
+    --logo-font: 'Roboto', sans-serif;
+    --logo-color: rgb(81, 81, 81);
+
+    --hover-color: rgb(26, 188, 156);
+
+    --nav-font: 'Open Sans', sans-serif;
+    --nav-color: black;
+
+    --slaider-overlay__color: rgba(0, 0, 0, .52);
+    --slaider-ctrl__opacity: rgba(26, 188, 156, .65);
+    --ctrl-color: white;
+}  
