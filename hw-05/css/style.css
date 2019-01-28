@@ -138,11 +138,6 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/icons/arrow-next.png");
   right: 0;
 }
-.fa-angle-left,
-.fa-angle-right {
-  font-size: 100px;
-  color: var(--ctrl-color);
-}
 .slaider-text {
   width: 745px;
   margin: 0 auto;
@@ -166,6 +161,7 @@ input[type="radio"].visually-hidden {
 /* section */
 .section-wrapper {
   background-color: var(--background-color__section);
+  height: 675px;
 }
 .section-title {
   text-align: center;
@@ -220,9 +216,9 @@ input[type="radio"].visually-hidden {
 }
 .product-icons__item {
   float: left;
+  width: 50px;
   position: relative;
 }
-
 .product-icons__item:nth-child(-n + 2) {
   margin-right: 10px;
 }
@@ -230,7 +226,7 @@ input[type="radio"].visually-hidden {
   margin-bottom: 10px;
 }
 .product-icons__item:nth-child(4n) {
-  width: 170px;
+  width: 100%;
 }
 .product-button {
   display: block;
@@ -248,7 +244,7 @@ input[type="radio"].visually-hidden {
   height: 48px;
   background-color: var(--article-background); 
 }
-.product-button:hover {
+.product-icons__item:hover .product-button {
   background-color: var(--hover-color);
 }
 .button-like {
@@ -260,7 +256,11 @@ input[type="radio"].visually-hidden {
 .button-time {
   background-image: url("../img/icons/clock.png");
 }
-.button-title {
+.button-basket {
+  background-image: url("../img/icons/trusk.png");
+  background-position: 10px center;
+}
+.button-name {
   position: absolute;
   top: 50%;
   right: 20px;
@@ -270,15 +270,6 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   font-family: var(--card-title__font);
 }
-.button-basket::before {
-  content: "";
-  display: block;
-  width: 48px;
-  height: 48px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../img/icons/trusk.png');
-}
 .product_name {
   width: 255px;
   background-color: var(--article-background);
@@ -287,6 +278,9 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
   text-transform: uppercase;
   font-family: var(--logo-font);
+}
+.collection-item:hover .product_name {
+  background-color: var(--hover-color);
 }
 .article_name {
   float: left;
@@ -301,4 +295,8 @@ input[type="radio"].visually-hidden {
   font-weight: 900;
   width: 55px;
   background-color: var(--card-price__color);
+}
+.footer-wrapper {
+  background-color: var(--article-background);
+  height: 90px;
 }
