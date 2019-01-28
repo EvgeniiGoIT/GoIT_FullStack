@@ -242,7 +242,7 @@ input[type="radio"].visually-hidden {
 .product-icons__item:nth-child(4n) .product-button {
   width: 168px;
   height: 48px;
-  background-color: var(--article-background); 
+  background-color: var(--article-background);
 }
 .product-icons__item:hover .product-button {
   background-color: var(--hover-color);
