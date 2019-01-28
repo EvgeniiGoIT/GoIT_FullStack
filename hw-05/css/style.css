@@ -126,6 +126,7 @@ input[type="radio"].visually-hidden {
   border: none;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 .slaider-ctrl:hover {
   background-color: var(--slaider-ctrl__opacity);
@@ -234,6 +235,7 @@ input[type="radio"].visually-hidden {
   background-position: center;
   background-color: transparent;
   border: 1px solid var(--ctrl-color);
+  cursor: pointer;
 }
 .product-icons__item:nth-child(-n + 3) .product-button {
   width: 48px;
@@ -278,6 +280,7 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
   text-transform: uppercase;
   font-family: var(--logo-font);
+  cursor: pointer;
 }
 .collection-item:hover .product_name {
   background-color: var(--hover-color);
@@ -298,7 +301,7 @@ input[type="radio"].visually-hidden {
 }
 .footer-wrapper {
   background-color: var(--article-background);
-  height: 90px;
+  min-height: 90px;
 }
 .footer-cont {
   font-family: var(--nav-font);
@@ -306,7 +309,7 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   color: var(--ctrl-color);
   text-align: center;
-  padding-top: 35px;
+  line-height: 90px;
 }
 .footer-link {
   text-decoration: none;
