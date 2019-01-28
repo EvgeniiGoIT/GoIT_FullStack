@@ -36,7 +36,7 @@ input[type="radio"].visually-hidden {
   display: table;
 }
 .wrapper {
-  width: 1600px;
+  overflow: hidden;
   margin: 0 auto;
 }
 
@@ -99,7 +99,7 @@ input[type="radio"].visually-hidden {
 .slaider-img {
   display: block;
   width: 100%;
-  height: auto;
+  object-fit: cover;
 }
 .slaider-overlay {
   position: absolute;
