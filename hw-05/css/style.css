@@ -6,12 +6,13 @@
   margin: 0;
   padding: 0;
 }
-
 .container {
   width: 1110px;
   margin: 0 auto;
 }
-
+.wrapper {
+  overflow: hidden;
+}
 .list-style {
   list-style: none;
 }
@@ -35,11 +36,6 @@ input[type="radio"].visually-hidden {
   clear: both;
   display: table;
 }
-.wrapper {
-  overflow: hidden;
-  margin: 0 auto;
-}
-
 .header {
   height: 90px;
   position: relative;
@@ -68,7 +64,7 @@ input[type="radio"].visually-hidden {
 /* nav */
 .header-nav {
   float: right;
-  width: 465px;
+  max-width: 100%;
 }
 .nav-item {
   float: left;
@@ -100,6 +96,7 @@ input[type="radio"].visually-hidden {
   display: block;
   width: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 .slaider-overlay {
   position: absolute;
@@ -122,14 +119,14 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: var(--hover-color);
+  background-color: var(--slaider-ctrl__opacity);
   border: none;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 }
 .slaider-ctrl:hover {
-  background-color: var(--slaider-ctrl__opacity);
+  background-color: var(--hover-color);
 }
 .slaider-ctrl-prev {
   background-image: url("../img/icons/arrow-prev.png");
@@ -216,8 +213,10 @@ input[type="radio"].visually-hidden {
   width: 170px;
 }
 .product-icons__item {
+  box-sizing: border-box;
   float: left;
-  width: 50px;
+  width: 170px;
+  height: 50px;
   position: relative;
 }
 .product-icons__item:nth-child(-n + 2) {
@@ -225,9 +224,7 @@ input[type="radio"].visually-hidden {
 }
 .product-icons__item:nth-child(-n + 3) {
   margin-bottom: 10px;
-}
-.product-icons__item:nth-child(4n) {
-  width: 100%;
+  width: 50px;
 }
 .product-button {
   display: block;
@@ -237,13 +234,11 @@ input[type="radio"].visually-hidden {
   border: 1px solid var(--ctrl-color);
   cursor: pointer;
 }
-.product-icons__item:nth-child(-n + 3) .product-button {
-  width: 48px;
-  height: 48px;
+.product-button {
+  width: 100%;
+  height: 100%;
 }
 .product-icons__item:nth-child(4n) .product-button {
-  width: 168px;
-  height: 48px;
   background-color: var(--article-background);
 }
 .product-icons__item:hover .product-button {
