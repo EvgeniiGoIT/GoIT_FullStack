@@ -186,6 +186,7 @@ input[type="radio"].visually-hidden {
 .product-img {
   display: block;
   width: 100%;
+  height: auto;
 }
 .product-overlay {
   display: none;
@@ -261,7 +262,6 @@ input[type="radio"].visually-hidden {
   font-family: var(--card-title__font);
 }
 .product_name {
-  width: 255px;
   background-color: var(--article-background);
   color: var(--ctrl-color);
   line-height: 40px;
@@ -281,7 +281,7 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
 }
 .article_price {
-  float: left;
+  float: right;
   text-align: center;
   font-weight: 900;
   width: 55px;
@@ -289,7 +289,6 @@ input[type="radio"].visually-hidden {
 }
 .footer-wrapper {
   background-color: var(--article-background);
-  min-height: 90px;
 }
 .footer-cont {
   font-family: var(--nav-font);
