@@ -51,7 +51,7 @@ input[type="radio"].visually-hidden {
 }
 .logo::first-letter {
   font-weight: 900;
-  color: var(--hover-color);
+  color: var(--hover);
 }
 /* nav */
 .header-nav {
@@ -73,18 +73,18 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
 }
 .nav-link:hover {
-  color: var(--hover-color);
+  color: var(--hover);
 }
-/* slaider */
-.slaider {
+/* slider */
+.slider {
   position: relative;
 }
-.slaider-img {
+.slider-img {
   display: block;
   width: 100%;
   object-fit: cover;
 }
-.slaider::after {
+.slider::after {
   content: "";
   display: block;
   position: absolute;
@@ -92,40 +92,40 @@ input[type="radio"].visually-hidden {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: var(--slaider-overlay__color);
+  background-color: var(--overlay);
 }
-.slaider-cont {
+.slider-cont {
   z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.slaider-ctrl {
+.slider-ctrl {
   display: block;
   width: 100px;
   height: 105px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: var(--slaider-ctrl__opacity);
+  background-color: var(--slider-ctrl);
   border: none;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 }
-.slaider-ctrl:hover {
-  background-color: var(--hover-color);
+.slider-ctrl:hover {
+  background-color: var(--hover);
 }
-.slaider-ctrl-prev {
+.slider-ctrl-prev {
   background-image: url("../img/icons/arrow-prev.png");
   left: 0;
 }
-.slaider-ctrl-next {
+.slider-ctrl-next {
   background-image: url("../img/icons/arrow-next.png");
   right: 0;
 }
-.slaider-text {
+.slider-text {
   z-index: 1;
   position: absolute;
   top: 50%;
@@ -165,7 +165,7 @@ input[type="radio"].visually-hidden {
 .section-title::after {
   content: "";
   display: block;
-  border: 3px solid var(--hover-color);
+  border: 3px solid var(--hover);
   width: 165px;
   margin: 0 auto;
   margin-top: 35px;
@@ -191,7 +191,7 @@ input[type="radio"].visually-hidden {
 .product-overlay {
   display: none;
   position: absolute;
-  background-color: var(--slaider-overlay__color);
+  background-color: var(--overlay);
   top: 10px;
   left: 10px;
   right: 10px;
@@ -236,7 +236,7 @@ input[type="radio"].visually-hidden {
   background-color: var(--article-background);
 }
 .product-icons__item:hover .product-button {
-  background-color: var(--hover-color);
+  background-color: var(--hover);
 }
 .button-like {
   background-image: url("../img/icons/hart.png");
@@ -271,7 +271,7 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 .collection-item:hover .product_name {
-  background-color: var(--hover-color);
+  background-color: var(--hover);
 }
 .article_name {
   float: left;
@@ -301,5 +301,5 @@ input[type="radio"].visually-hidden {
 }
 .footer-link {
   text-decoration: none;
-  color: var(--hover-color);
+  color: var(--hover);
 }
