@@ -109,28 +109,28 @@
 .services-list-item::before {
   content: "";
   display: block;
-  height: 32px;
   width: 32px;
+  height: 32px;
+  background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
-  background-position: center;
 }
 .icon-alarm::before {
-  background-image: url(../img/icons/ALARM.png);
+  background-position: -40px -40px;
 }
 .icon-line::before {
-  background-image: url(../img/icons/LINE.png);
+  background-position: -40px -259px;
 }
 .icon-computer::before {
-  background-image: url(../img/icons/COMPUTER_OK.png);
+  background-position: -264px -40px;
 }
 .icon-book::before {
-  background-image: url(../img/icons/book.png);
+  background-position: -152px -40px;
 }
 .icon-home::before {
-  background-image: url(../img/icons/HOME.png);
+  background-position: -264px -148px;
 }
 .icon-image::before {
-  background-image: url(../img/icons/IMAGE.png);
+  background-position: -40px -259px;
 }
 .services-text {
   width: 300px;
@@ -192,7 +192,7 @@
   height: auto;
 }
 .overlay {
-  visibility: hidden;
+  /* visibility: hidden; */
   position: absolute;
   top: 0;
   left: 0;
@@ -221,35 +221,29 @@
   width: 225px;
   justify-content: space-between;
 }
-.socials-list-item {
-  margin-right: 1px;
-  flex: 1 0 26px;
-}
-.socials-list-item:last-child {
-  margin-right: 0;
-}
 .socials-link {
-  height: 57px;
   display: block;
+  width: 54px;
+  height: 50px;
   background-repeat: no-repeat;
-  background-position: center;
   background-color: var(--socials-back__color);
+  background-image: url(../img/spritesheet.png);
 }
 .socials-link:hover {
   background-color: var(--socials-hover__color);
   transition: 0.2s linear;
 }
 .icon-facebook {
-  background-image: url(../img/icons/socials/facebook.png);
+  background-position: -240px -250px;
 }
 .icon-twitter {
-  background-image: url(../img/icons/socials/twitter.png);
+  background-position: -360px -240px;
 }
 .icon-pinterest {
-  background-image: url(../img/icons/socials/pinterest.png);
+  background-position: -360px -135px;
 }
 .icon-instagram {
-  background-image: url(../img/icons/socials/instagram.png);
+  background-position: -363px -28px;
 }
 .team-list-name {
   text-align: center;
