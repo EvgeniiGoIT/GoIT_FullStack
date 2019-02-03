@@ -134,9 +134,6 @@
 }
 .services-text {
   width: 300px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
 }
 .section-services__title {
   font-family: var(--title-font);
