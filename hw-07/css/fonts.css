@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'MontserratRegular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat/montserrat-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat/montserrat-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Black'), local('Montserrat-Black'),
+         url('../fonts/montserrat/montserrat-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat/montserrat-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto_slab/roboto-slab-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto_slab/roboto-slab-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+       font-family: 'Dancing Script';
+       font-style: normal;
+       font-weight: normal;
+       src: local( 'Dancing Script'), local( 'Dancing-Script'),
+       url('../fonts/dancing_script/DancingScript-Regular.woff2') format('woff2'),
+       url('../fonts/dancing_script/DancingScript-Regular.woff') format('woff');
+       
+  }
+  @font-face {
+       font-family: 'Raleway Italic';
+       font-style: normal;
+       font-weight: normal;
+       src: local('Raleway Italic'), local('Raleway-Italic'),
+       url('../fonts/raleway_italic/Raleway-Italic.woff2') format('woff2'),
+       url('../fonts/raleway_italic/Raleway-Italic.woff') format('woff');
+  }

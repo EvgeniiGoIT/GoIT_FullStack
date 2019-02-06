@@ -1,0 +1,48 @@
+@import "./var.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* a {
+  text-decoration: none;
+}
+.visually-hidden {
+  visibility: hidden;
+  font-size: 1px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.list-style {
+  list-style: none;
+}
+/* .sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-basket {
+    width: 39px;
+    height: 38px;
+    background-position: -40px -40px;
+}
+
+.sprite-laptop {
+    width: 41px;
+    height: 35px;
+    background-position: -159px -40px;
+}
+
+.sprite-locked {
+    width: 29px;
+    height: 38px;
+    background-position: -159px -155px;
+}
+ */
