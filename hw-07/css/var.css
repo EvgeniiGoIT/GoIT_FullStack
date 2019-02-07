@@ -1,16 +1,18 @@
 @import "./fonts.css";
 :root {
-  --main-color: rgb(149, 225, 211);
-  --secondary-color: rgb(153, 153, 153);
-  --third-color: rgb(243, 129, 129);
-  --fourth-color: rgb(51, 51, 51);
-  --socials-back__color: rgb(252, 227, 138);
-  --socials-hover__color: rgb(149, 225, 211);
+  --main-color: #222222;
+  --secondary-color: #fed136;
+  --third-color: #777777;
+  --fourth-color: #ffffff;
+  --valid-color: rgb(5, 253, 108);
+  --invalid-color: rgb(250, 8, 8);
   --button-color: rgb(255, 255, 255);
   --shadow-color: rgb(231, 231, 231);
-  --text-button-color: rgb(204, 204, 204);
+  --text-button-color: rgb(204, 204, 204);  
 
-  --title-font: 'Montserrat', sans-serif;
-  --before-font:'Kaushan Script', cursive;
-  --description-font: 'Roboto', sans-serif;
+  --title-font: 'Dancing Script', sans-serif;
+  --first-font:'Montserrat Regular', sans-serif;
+  --secondary-font: 'Montserrat Bold', sans-serif;
+  --description-font: 'Raleway Italic', sans-serif;
+  --services-font: 'Roboto Slab', sans-serif;
 }
