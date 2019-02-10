@@ -5,11 +5,11 @@
   --third-color: #777777;
   --fourth-color: #ffffff;
   --border-color: #cccccc;
-  --valid-color: green;
-  --invalid-color: rgb(250, 8, 8);
-  --button-color: rgb(255, 255, 255);
+  --valid-color: #008000;
+  --invalid-color: #fa0808;
+  /* --button-color: rgb(255, 255, 255);
   --shadow-color: rgb(231, 231, 231);
-  --text-button-color: rgb(204, 204, 204);  
+  --text-button-color: rgb(204, 204, 204);   */
 
   --title-font: 'Dancing Script', sans-serif;
   --first-font:'Montserrat Regular', sans-serif;

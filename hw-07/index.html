@@ -64,40 +64,42 @@
           <span class="title-down">Lorem ipsum dolor sit amet.</span>
         </h2>
         <form action="#" class="feedback" id="feedback" method="GET">
-          <ul class="input-list">
-            <li class="input-item">
-              <input
-                type="text"
-                name="user_name"
-                placeholder="your name"
-                id="user_name"
-                required
-              />
-            </li>
-            <li class="input-item">
-              <input
-                type="email"
-                name="user_email"
-                placeholder="your e-mail"
-                id="user_email"
-                required
-              />
-            </li>
-            <li class="input-item">
-              <input
-                type="text"
-                name="subject"
-                placeholder="subject"
-                id="subject"
-              />
-            </li>
-          </ul>
+          <div class="main-form">
+            <ul class="input-list">
+              <li class="input-item">
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="your name"
+                  id="user_name"
+                  required
+                />
+              </li>
+              <li class="input-item">
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="your e-mail"
+                  id="user_email"
+                  required
+                />
+              </li>
+              <li class="input-item">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="subject"
+                  id="subject"
+                />
+              </li>
+            </ul>
             <textarea
               name="comments"
               id="comments"
               placeholder="your massage"
               required
             ></textarea>
+          </div>
           <button class="form-button" type="submit">send massage</button>
         </form>
       </footer>
