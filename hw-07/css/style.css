@@ -104,12 +104,13 @@
   color: var(--third-color);
 }
 .footer-wrapper {
-  background-image: url(../img/map.jpg);
+  background-image: url(../img/map.png);
+  background-color: var(--main-color);
   background-repeat: no-repeat;
   height: 100%;
-  background-size: cover;
+  background-size: contain;
   display: block;
-  background-position: center;
+  background-position: right;
 }
 .footer .section-title {
   padding-top: 110px;
