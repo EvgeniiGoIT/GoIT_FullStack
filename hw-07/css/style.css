@@ -117,32 +117,47 @@
   color: var(--fourth-color);
 }
 .feedback {
+  height: 310px;
   display: flex;
   flex-flow: column wrap;
+  align-content: space-between;
   justify-content: space-between;
 }
-.feedback input::placeholder, textarea::placeholder {
+.feedback input,
+.feedback textarea {
+  width: 455px;
+  padding: 0 20px;
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+  outline: none;
   font-size: 14px;
   font-family: var(--secondary-font);
-  text-transform: uppercase;
-  padding: 20px;
+  color: var(--border-color);
 }
-.feedback *:required:valid {
-  outline: 1px solid var(--valid-color);
+.input-item:nth-child(-n + 2) {
+  margin-bottom: 30px;
 }
-.feedback *:required:invalid {
-  outline: 1px solid var(--invalid-color);
+.feedback input {
+  height: 55px;
 }
-/* input,
-textarea {
-  max-width: 455px;
-} */
-textarea {
+.feedback textarea {
+  height: 225px;
   resize: none;
+  padding-top: 20px;
+}
+.feedback input::placeholder,
+textarea::placeholder {
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+.feedback *:required:focus:valid {
+  border-color: var(--valid-color);
+}
+.feedback *:required:focus:invalid {
+  border-color: var(--invalid-color);
 }
 .form-button {
   cursor: pointer;
-  align-self: center;
   font-size: 18px;
   font-family: var(--secondary-font);
   text-transform: uppercase;
@@ -153,5 +168,4 @@ textarea {
   border: none;
   outline: none;
   border-radius: 5px;
-  order: 1;
 }

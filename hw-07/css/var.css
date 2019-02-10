@@ -4,7 +4,8 @@
   --secondary-color: #fed136;
   --third-color: #777777;
   --fourth-color: #ffffff;
-  --valid-color: rgb(5, 253, 108);
+  --border-color: #cccccc;
+  --valid-color: green;
   --invalid-color: rgb(250, 8, 8);
   --button-color: rgb(255, 255, 255);
   --shadow-color: rgb(231, 231, 231);
