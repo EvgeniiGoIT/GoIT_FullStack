@@ -123,7 +123,6 @@
 .main-form {
   display: flex;
   justify-content: space-between;
-  height: 225px;
   margin-bottom: 30px;
 }
 .feedback input,
@@ -144,7 +143,6 @@
   height: 55px;
 }
 .feedback textarea {
-  height: 100%;
   resize: none;
   padding-top: 20px;
 }
@@ -152,6 +150,10 @@
 .feedback textarea::placeholder {
   text-transform: uppercase;
   color: var(--border-color);
+}
+.feedback input::-webkit-input-placeholder::after {
+  content: "*";
+  visibility: visible;
 }
 .feedback *:required:focus:valid {
   border-color: var(--valid-color);
