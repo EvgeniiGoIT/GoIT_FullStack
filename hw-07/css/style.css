@@ -151,10 +151,6 @@
   text-transform: uppercase;
   color: var(--border-color);
 }
-.feedback input::-webkit-input-placeholder::after {
-  content: "*";
-  visibility: visible;
-}
 .feedback *:required:focus:valid {
   border-color: var(--valid-color);
 }
