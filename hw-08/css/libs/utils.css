@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  box-sizing: inherit;
 }
 @media screen and (min-width: 768px) {
   .conteiner {
@@ -13,6 +12,9 @@
 @media screen and (min-width: 1440px) {
   .conteiner {
     width: 940px;
+  }
+  .link-button {
+    padding: 15px 25px;
   }
 }
 
@@ -35,7 +37,4 @@
   display: inline-block;
   font-family: var(--title-font);
   border-radius: 18px;
-  background-color: var(--button-color);
-  color: var(--main-color);
-  padding: 15px 50px;
 }

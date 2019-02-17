@@ -1,0 +1,70 @@
+.partners__section {
+  padding: 70px 0 50px 0;
+  text-align: center;
+}
+.partners-title {
+  padding: 0 25px;
+  font-size: 21.98px;
+  margin-bottom: 20px;
+}
+.partners-list {
+  margin-bottom: 30px;
+}
+.partners-list_item {
+  width: 215px;
+  margin: 0 auto;
+}
+.img-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+.img-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(22px, 22px);
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--main-color);
+  border-radius: 50%;
+  background-image: url(../../img/spritesheet.png);
+  background-repeat: no-repeat;
+}
+.first-partners {
+  background-color: var(--button-color);
+  background-position: -11px -11px;
+}
+.second-partners {
+  background-color: var(--second-par);
+  background-position: -65px -11px;
+}
+.third-partners {
+  background-color: var(--third-par);
+  background-position: -121px -11px;
+}
+.fourth-partners {
+  background-color: var(--fourth-par);
+  background-position: -11px -66px;
+}
+.partners-name {
+  margin-bottom: 15px;
+}
+.partners-link {
+  background-color: transparent;
+  color: var(--button-color);
+  box-shadow: 0 0 0 3px var(--button-color);
+  padding: 10px 70px;
+}
+@media screen and (max-width: 767px) {
+  .partners-list_item:nth-child(-n + 3) {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+}
