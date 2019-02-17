@@ -1,0 +1,4 @@
+.masthead-wrapper {
+  background: var(--wrapper-color) url("../../img/banner.png") center no-repeat;
+  background-size: cover;
+}

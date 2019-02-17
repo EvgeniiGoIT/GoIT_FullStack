@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  font-size: 62.5%;
+}
+.section {
+  padding: 4rem 0;
+}
+.title--dark {
+  font-family: var(--title-font);
+  color: var(--second-color);
+}
+.title--light {
+  font-family: var(--title-font);
+  color: var(--main-color);
+}
+.text--dark {
+  font-family: var(--descript-font);
+  color: var(--third-color);
+}
+.text--light {
+  font-family: var(--descript-font);
+  color: var(--main-color);
+}
+.link-button {
+  display: inline-block;
+  font-family: var(--title-font);
+  font-size: 1.4rem;
+  border-radius: 1.8rem;
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 1rem 5rem;
+}
