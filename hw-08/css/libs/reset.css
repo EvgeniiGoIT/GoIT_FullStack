@@ -99,15 +99,10 @@ nav,
 section {
   display: block;
 }
-body {
-  line-height: 1;
-}
+
 ol,
 ul {
   list-style: none;
-}
-a {
-  text-decoration: none;
 }
 blockquote,
 q {
@@ -124,3 +119,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* My */
+a {
+  text-decoration: none;
+}
+/* Disabled  */
+/* body {
+  line-height: 1;
+} */

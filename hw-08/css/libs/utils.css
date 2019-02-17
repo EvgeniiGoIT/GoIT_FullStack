@@ -1,40 +1,40 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+*,
 *::before,
 *::after {
+  box-sizing: border-box;
   box-sizing: inherit;
 }
-:root {
-  font-size: 62.5%;
+@media screen and (min-width: 1440px) {
+  .conteiner {
+    width: 940px;
+  }
 }
-.section {
-  padding: 4rem 0;
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 660px;
+    margin: 0 auto;
+  }
 }
 .title--dark {
+  font-size: var(--main-size);
   font-family: var(--title-font);
   color: var(--second-color);
 }
 .title--light {
+  font-size: var(--main-size);
   font-family: var(--title-font);
   color: var(--main-color);
 }
 .text--dark {
+  font-size: var(--main-size);
   font-family: var(--descript-font);
   color: var(--third-color);
-}
-.text--light {
-  font-family: var(--descript-font);
-  color: var(--main-color);
 }
 .link-button {
   display: inline-block;
   font-family: var(--title-font);
-  font-size: 1.4rem;
-  border-radius: 1.8rem;
+  border-radius: 18px;
   background-color: var(--button-color);
   color: var(--main-color);
-  padding: 1rem 5rem;
+  padding: 15px 50px;
 }
