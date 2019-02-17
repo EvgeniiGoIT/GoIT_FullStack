@@ -4,17 +4,18 @@
   box-sizing: border-box;
   box-sizing: inherit;
 }
-@media screen and (min-width: 1440px) {
-  .conteiner {
-    width: 940px;
-  }
-}
 @media screen and (min-width: 768px) {
   .conteiner {
     width: 660px;
     margin: 0 auto;
   }
 }
+@media screen and (min-width: 1440px) {
+  .conteiner {
+    width: 940px;
+  }
+}
+
 .title--dark {
   font-size: var(--main-size);
   font-family: var(--title-font);
