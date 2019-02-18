@@ -1,6 +1,3 @@
-.wrapper {
-  min-width: 320px;
-}
 .masthead-wrapper {
   background: var(--wrapper-color) url("../../img/banner.png") center no-repeat;
   background-size: cover;
@@ -76,10 +73,13 @@
   }
   .hero__title-up {
     font-size: 51.97px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
   }
   .hero__title-down {
     font-size: 23.99px;
     margin-bottom: 35px;
+  }
+  .hero__button {
+    padding: 10px 25px;
   }
 }

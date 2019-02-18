@@ -3,6 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
+.wrapper {
+  min-width: 320px;
+}
 @media screen and (min-width: 768px) {
   .conteiner {
     width: 660px;
@@ -12,9 +15,6 @@
 @media screen and (min-width: 1440px) {
   .conteiner {
     width: 940px;
-  }
-  .link-button {
-    padding: 15px 25px;
   }
 }
 
