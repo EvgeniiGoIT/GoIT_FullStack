@@ -13,7 +13,7 @@
   position: relative;
   margin-bottom: 20px;
 }
-.img-icons::after {
+.img-container::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -42,6 +42,9 @@
 .fourth-partners::after {
   background-color: var(--fourth-par);
   background-position: -11px -66px;
+}
+.partners-img {
+  border-radius: 50%;
 }
 .figure-partners_figcaption {
   width: 215px;

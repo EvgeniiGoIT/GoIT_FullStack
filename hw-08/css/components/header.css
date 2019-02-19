@@ -1,8 +1,6 @@
 .masthead-wrapper {
   background: var(--wrapper-color) url("../../img/banner.png") center no-repeat;
   background-size: cover;
-}
-.masthead {
   padding: 20px 0 140px 0;
   text-align: center;
 }
@@ -15,20 +13,22 @@
 .logo {
   font-size: 20px;
 }
-
-.nav-list {
+.register-list {
   display: flex;
 }
-.nav-item:nth-child(-n + 1) {
+.register-item:nth-child(-n + 1) {
   margin-right: 5px;
 }
-.nav-link {
-  display: inline-block;
+.register-button {
   border-radius: 18px;
-  padding: 10px 16px;
+  width: 90px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid transparent;
+  outline: none;
 }
-.nav-link:focus {
-  box-shadow: 0 0 0 2px var(--main-color);
+.register-button:focus {
+  border-color: var(--main-color);
 }
 .hero__title-up {
   font-size: 30px;
@@ -47,7 +47,7 @@
   padding: 10px 50px;
 }
 @media screen and (max-width: 767px) {
-  .header-nav {
+  .header-register {
     margin-bottom: 110px;
   }
   .masthead__hero {
@@ -58,7 +58,7 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .masthead {
+  .masthead-wrapper {
     padding: 40px 0 235px 0;
   }
   .masthead__header {
