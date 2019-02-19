@@ -27,7 +27,7 @@
   border: 2px solid transparent;
   outline: none;
 }
-.register-button:focus {
+.register-button:hover {
   border-color: var(--main-color);
 }
 .hero__title-up {
