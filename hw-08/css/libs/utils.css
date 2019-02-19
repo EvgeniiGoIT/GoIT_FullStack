@@ -5,11 +5,11 @@
 }
 .conteiner {
   width: 320px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .conteiner {
     width: 660px;
-    margin: 0 auto;
   }
 }
 @media screen and (min-width: 940px) {
