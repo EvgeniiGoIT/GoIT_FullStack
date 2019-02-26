@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.conteiner {
+  width: 320px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 660px;
+  }
+}
+@media screen and (min-width: 940px) {
+  .conteiner {
+    width: 940px;
+  }
+}
+
+.title--dark {
+  font-size: var(--main-size);
+  font-family: var(--title-font);
+  color: var(--second-color);
+}
+.title--light {
+  font-size: var(--main-size);
+  font-family: var(--title-font);
+  color: var(--main-color);
+}
+.text--dark {
+  font-size: var(--main-size);
+  font-family: var(--descript-font);
+  color: var(--third-color);
+}
+.link-button {
+  display: inline-block;
+  font-family: var(--title-font);
+  border-radius: 18px;
+}
