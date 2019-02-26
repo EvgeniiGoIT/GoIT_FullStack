@@ -58,9 +58,6 @@
     margin-bottom: 110px;
   }
 
-  .hero__title-down {
-    padding: 0 45px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -73,8 +70,6 @@
 
   .masthead__hero {
     padding-bottom: 235px;
-    width: 503px;
-    margin: 0 auto;
   }
 
   .hero__title-up {
