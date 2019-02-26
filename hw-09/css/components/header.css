@@ -1,24 +1,17 @@
 .masthead-wrapper {
   background: var(--wrapper-color) url("../../img/banner.png") center no-repeat;
   background-size: cover;
-  padding: 20px 0 140px 0;
-  text-align: center;
 }
+
 .masthead__header {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
   margin-bottom: 40px;
+  padding-top: 20px;
 }
+
 .logo {
   font-size: 20px;
 }
-.register-list {
-  display: flex;
-}
-.register-item:nth-child(-n + 1) {
-  margin-right: 5px;
-}
+
 .register-button {
   border-radius: 18px;
   width: 90px;
@@ -27,58 +20,73 @@
   border: 2px solid transparent;
   outline: none;
 }
+
 .register-button:hover {
   border-color: var(--main-color);
 }
+
+.masthead__hero {
+  justify-content: center;
+  padding-bottom: 140px;
+}
+
 .hero__title-up {
   font-size: 30px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+
 .hero__title-down {
   font-size: 18px;
   font-family: var(--descript-font);
   color: var(--main-color);
   margin-bottom: 20px;
 }
+
 .hero__button {
   background-color: var(--button-color);
   color: var(--main-color);
   padding: 10px 50px;
 }
+
 @media screen and (max-width: 767px) {
+  .masthead__header {
+    flex-direction: column-reverse;
+  }
+
   .header-register {
     margin-bottom: 110px;
   }
-  .masthead__hero {
-    padding: 0 5px;
-  }
+
   .hero__title-down {
     padding: 0 45px;
   }
 }
+
 @media screen and (min-width: 768px) {
-  .masthead-wrapper {
-    padding: 40px 0 235px 0;
-  }
   .masthead__header {
-    flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    padding-top: 40px;
     margin-bottom: 160px;
   }
+
   .masthead__hero {
+    padding-bottom: 235px;
     width: 503px;
     margin: 0 auto;
   }
+
   .hero__title-up {
     font-size: 51.97px;
     margin-bottom: 35px;
   }
+
   .hero__title-down {
     font-size: 23.99px;
     margin-bottom: 35px;
   }
+
   .hero__button {
     padding: 10px 25px;
   }
