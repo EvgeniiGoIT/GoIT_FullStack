@@ -120,7 +120,7 @@ table {
   border-spacing: 0;
 }
 /* My */
-a {
+a,a:hover {
   text-decoration: none;
 }
 /* Disabled  */
