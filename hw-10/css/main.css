@@ -2,3 +2,4 @@
 @import "./vars.css";
 @import "./libs/normalize.css";
 @import "./libs/utils.css";
+@import "./components/header.css";
