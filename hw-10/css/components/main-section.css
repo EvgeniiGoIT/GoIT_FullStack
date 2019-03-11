@@ -1,0 +1,75 @@
+/* SERVICES SECTION */
+.main__services-section {
+    padding-top: 45px;
+    margin-bottom: 95px;
+}
+
+.services-section__head-title,
+.team-section__head-title {
+    margin-bottom: 60px;
+    color: var(--second-color);
+    text-transform: uppercase;
+    font-size: 30px
+}
+
+.services-section__head-title::after,
+.team-section__head-title::after {
+    content: '';
+    display: block;
+    margin: 45px auto 0;
+    width: 60px;
+    border: 2px solid var(--line-color);
+}
+
+.services-section__head-description,
+.team-section__head-description {
+    display: block;
+    margin-bottom: 20px;
+    text-transform: none;
+    font-size: 24px;
+    color: var(--second-color);
+}
+
+/* SERVICE SECTION LIST */
+.services-section__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-section__item {
+    display: flex;
+}
+
+.services-section__item:nth-child(-n+3) {
+    margin-bottom: 100px;
+}
+
+.services-section__icons {
+    width: 34px;
+    height: 34px;
+    fill: var(--services-icons);
+}
+
+.services-section__container {
+    width: 300px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.services-section__item-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--second-color);
+}
+
+.services-section_item-about {
+    font-size: 15px
+}
+
+/* TEAM SECTION */
+.team-section__about {
+    width: 980px;
+    margin: 0 auto 90px;
+}
