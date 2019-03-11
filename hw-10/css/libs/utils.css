@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.page__container {
+.container {
     width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -19,22 +19,22 @@ ul {
     list-style: none;
 }
 
-.page--mon-bold-font {
+.font--mon-bold {
     font-family: var(--title-font);
     color: var(--main-color);
 }
 
-.page--mon-reg-font {
+.font--mon-reg {
     font-family: var(--first-font);
     color: var(--main-color);
 }
 
-.page--rob-reg-font {
+.font--rob-reg {
     font-family: var(--third-font);
     color: var(--third-color);
 }
 
-.page--script-font {
+.font--script {
     font-family: var(--second-font);
     color: var(--main-color);
 }
