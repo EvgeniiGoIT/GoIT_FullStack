@@ -6,13 +6,14 @@
   --button-color: #ff4e50;
   --wrapper-color: #1a1915;
 
-  --second-par: #ffa507;
+  
+  --header-hover: #fce38a;
   --third-par: #1cd7ad;
   --fourth-par: #4e73db;
 
   --title-font: "Montserrat Bold", sans-serif;
   --first-font: "Montserrat Regular", sans-serif;
-  --descript-font: "Roboto Lights", sans-serif;
+  --second-font: "Kaushan Script",sans-serif;
+  --descript-font: "Roboto LightItalic", sans-serif;
 
-  --main-size: 14px;
 }
