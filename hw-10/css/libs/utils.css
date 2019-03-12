@@ -38,3 +38,8 @@ ul {
     font-family: var(--second-font);
     color: var(--main-color);
 }
+
+.font--rob-italic {
+    font-family: var(--descript-font);
+    color: var(--third-color);
+}

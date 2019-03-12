@@ -1,3 +1,6 @@
+.main {
+    margin-bottom: 85px;
+}
 /* SERVICES SECTION */
 .services-section {
     padding-top: 45px;
@@ -79,11 +82,11 @@
     justify-content: space-between;
 }
 
-.team-section__item--active:hover .team-section__overlay {
+.team-section__item:hover .team-section__overlay {
     visibility: visible;
 }
 
-.team-section__item--active:hover .team-section__container {
+.team-section__item:hover .team-section__container {
     -webkit-box-shadow: 10px 10px 0px 0px var(--services-icons);
     -moz-box-shadow: 10px 10px 0px 0px var(--services-icons);
     box-shadow: 10px 10px 0px 0px var(--services-icons);
@@ -92,6 +95,7 @@
 
 .team-section__container {
     position: relative;
+    margin-bottom: 30px;
 }
 
 .team-section__img {
@@ -115,7 +119,36 @@
     display: flex;
 }
 
+.team-section__overlay-item:nth-child(-n+3) {
+    margin-right: 1px;
+}
+
+.team-section__overlay-item:hover .team-section__overlay-link {
+    background-color: var(--red-color);
+}
+
+.team-section__overlay-item:hover .team-section__overlay-icons {
+    fill: var(--main-color);
+}
+
+.team-section__overlay-link {
+    display: inline-block;
+    padding: 13px;
+    background-color: var(--header-hover);
+}
+
 .team-section__overlay-icons {
     width: 27px;
     height: 27px;
+    fill: var(--red-color);
+}
+
+.team-section__figcaption-title {
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
+
+.team-section__figcaption-occupation {
+    font-size: 15px;
 }

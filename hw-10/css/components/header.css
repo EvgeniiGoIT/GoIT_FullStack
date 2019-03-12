@@ -39,15 +39,15 @@
     width: 100%;
 }
 
-.header-nav__item--active:hover .header-nav__link {
+.header-nav__item:hover .header-nav__link {
     color: var(--header-hover);
 }
 
-.header-nav__item--active:hover .header-nav__icons {
+.header-nav__item:hover .header-nav__icons {
     fill: var(--header-hover);
 }
 
-.header-nav__item--active:hover::after {
+.header-nav__item:hover::after {
     border-color: var(--header-hover);
 }
 
