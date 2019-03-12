@@ -32,13 +32,8 @@
     color: var(--footer-color);
 }
 
-.email-form__btn {
-    line-height: 40px;
-    padding: 0 35px;
-    text-transform: uppercase;
+.section-btn--footer {
     background-color: var(--services-icons);
-    color: var(--main-color);
     border: none;
-    outline: none;
-    font-size: 14px;
+    cursor: pointer;
 }
