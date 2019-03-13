@@ -86,10 +86,13 @@
     -webkit-box-shadow: 10px 10px 0px 0px var(--services-icons);
     -moz-box-shadow: 10px 10px 0px 0px var(--services-icons);
     box-shadow: 10px 10px 0px 0px var(--services-icons);
+    transition: 0.2s linear;
+
 }
 
 .team-section__container:hover {
     transform: translate(-10px, -10px);
+    transition: 0.2s linear;
 }
 
 .team-section__container {
