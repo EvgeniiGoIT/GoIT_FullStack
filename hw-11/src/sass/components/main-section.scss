@@ -64,7 +64,7 @@
   @include font-setting(first-font, second-color);
 }
 
-.services-section_item-about {
+.services-section__item-about {
   @include font-setting(third-font, third-color, 15px);
 }
 

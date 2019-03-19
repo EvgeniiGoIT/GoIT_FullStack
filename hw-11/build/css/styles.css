@@ -431,7 +431,7 @@ template {
   /* Legacy iOS */
 }
 
-html {
+ghtml {
   box-sizing: border-box;
 }
 
@@ -637,7 +637,7 @@ ul {
   font-size: 14px;
 }
 
-.services-section_item-about {
+.services-section__item-about {
   font-family: "Roboto Regular", sans-serif;
   color: #999;
   font-size: 15px;
@@ -764,7 +764,6 @@ ul {
   color: #999;
   font-size: 15px;
   border: 1px solid #e7e7e7;
-  outline: none;
 }
 
 .email-form__input::-webkit-input-placeholder {
