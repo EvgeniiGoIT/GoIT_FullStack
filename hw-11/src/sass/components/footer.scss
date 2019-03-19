@@ -24,7 +24,6 @@
   line-height: 40px;
   @include font-setting(descript-font, third-color, 15px);
   border: 1px solid map-get($map: $colors, $key: footer-color);
-  outline: none;
 
   &::placeholder {
     color: map-get($map: $colors, $key: footer-color);
